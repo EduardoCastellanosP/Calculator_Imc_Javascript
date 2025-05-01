@@ -46,6 +46,7 @@ document.getElementById("imagen").src = imagen;
 
 document.getElementById("bloquear").addEventListener("click",function(){
   bloquear();
+  desbloquear();
 });
 
 
@@ -58,10 +59,13 @@ function bloquear(){
   }
   window.bloquear = bloquear;
 
+
+
+
 } 
 
 
-document.getElementById("desbloquear").addEventListener("click",function(){
+  document.getElementById("desbloquear").addEventListener("click",function(){
     desbloquear();
 });
   function desbloquear(){
@@ -72,6 +76,10 @@ document.getElementById("desbloquear").addEventListener("click",function(){
 }
 
 window.desbloquear = desbloquear;
+
+
+
+
 
   function borrar() {
     document.getElementById("formulario").reset();
