@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css">
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div class="contenedor-general">
+      <h1>CALCULADORA IMC</h1>
+
+      <div class="formulario-contenedor">
+        <form id="formulario">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Ingrese su nombre" required>
+        
+          <label for="edad">Edad</label>
+          <input id="edad" type="number" placeholder="Ingrese su edad" required>
+        
+          <label for="peso">Peso</label>
+          <input id="peso" type="number" placeholder="Ingrese su peso en Kg" required>
+        
+          <label for="estatura">Estatura</label>
+          <input id="estatura" type="number" step="0.01" placeholder="Ingrese su estatura en metros" required>
+        
+          <button id="bloquear" type="submit">Calcular</button>
+        </form>
+        
+        <div class="contenedor-final">
+          <hr>
+          <h1 class="texto-imc">TOTAL IMC</h1>
+          <h2 class="resultado" id="imc"></h2>
+          <img id="imagen" src="" alt="">
+        </div>
+        
+        <div class="btn-contenedor-nuevo">
+          <button id="desbloquear" type="button" class="btn-nuevo" onclick="borrar()">NUEVO</button>
+        </div>
+      </div> 
+        </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

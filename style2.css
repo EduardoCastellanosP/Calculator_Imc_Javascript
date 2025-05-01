@@ -1,0 +1,146 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8ecf0;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  .contenedor-general {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Título */
+  .contenedor-general h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0077b6;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  /* Etiquetas */
+  form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    
+  }
+
+
+  
+  /* Inputs */
+  form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+   
+  }
+
+  form input:focus {
+    border-color: #0077b6;
+    outline: none;
+  }
+  
+  /* Botón */
+  form button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  form button:hover {
+    background-color: #005f91;
+  }
+  
+  .contenedor-final{
+    margin-top: 50px;
+   
+    
+  }
+
+  .btn-final {
+    display: flex;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+
+  .btn-final:hover {
+    background-color: #005f91;
+  }
+
+  .btn-contenedor-nuevo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+   
+  }
+
+  .btn-nuevo {
+      
+    background-color: #01a701;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 220px;
+  }
+
+  .btn-nuevo:hover {
+    background-color: #00ff00;
+  }
+
+.resultado {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+ 
+  width: 400px;
+
+}
